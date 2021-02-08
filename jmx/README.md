@@ -1,8 +1,8 @@
 # JMX
 
-This example uses multipass and a sample application from Open-Telemetry. The example is about manual tracing but we are only concerned with getting the JMX metrics.
+This example uses multipass and a sample application from Open-Telemetry. The example app's original intent is about manual tracing with Open Telemetry; we are only concerned with getting the JMX metrics.
 
-It can be easily modified to work with other Java applications.
+These steps can be applied to other Java applications.
 
 Things to keep in mind:
 * The example assumes the agent is running on the same host as the application
