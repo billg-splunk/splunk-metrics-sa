@@ -42,6 +42,5 @@ sudo vi /etc/signalfx/monitors/exec.yaml
   * ```signalfx-agent status monitors | grep exec```, to see the new monitor and the metrics being sent
   * ```signalfx-agent tap-dps -metric '*myMeasurement*'```, to observe the datapoints for metrics containing 'jmx'
   * Login to Splunk Infrastructure
-    * Navigate to **Metrics**, search for **exec**, and filter on **ZZZZ**
-    * Navigate to **Dashboards**, search for **exec**, and click on the **ZZZZ** under **ZZZZZ**
-
+    * Navigate to **Metrics**, search for **myMeasurement**
+    * Click on **myMeasurement** to see it in a chart
