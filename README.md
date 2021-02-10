@@ -14,6 +14,7 @@ The general process is the following:
 
 ## Examples
 * [JMX](./jmx)
+* [Telegraf/exec](./telegraf_exec)
 
 ## Some tips and tricks
 Below are some common commands and tips you can use in modifying configurations and monitoring logs. They are specific to Linux/Ubuntu but could easily be adapted for other operating systems.

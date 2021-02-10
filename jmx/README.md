@@ -84,7 +84,7 @@ sudo vi /etc/signalfx/monitors/jmx.yaml
   * ```signalfx-agent tap-dps -metric '*jmx*'```, to observe the datapoints for metrics containing 'jmx'
   * Login to Splunk Infrastructure
     * Navigate to **Metrics**, search for **jmx**, and filter on **GenericJMX**
-    * Navigate to **Dashboards**, search for **jmx**, and click on the **Generic java stats** under **JMX (collectd)
+    * Navigate to **Dashboards**, search for **jmx**, and click on the **Generic java stats** under **JMX (collectd)**
 
 ---
 
