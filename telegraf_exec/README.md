@@ -2,7 +2,7 @@
 
 This example uses multipass and a simple script to demonstrate how the Telegraf/exec monitor can be used.
 
-## Prepare Sample Application
+## Install the Smart Agent
 * Create an ubuntu vm
 
 ```

@@ -8,7 +8,7 @@ Things to keep in mind:
 * The example assumes the agent is running on the same host as the application
 * If it is running remotely (i.e. with Kubernetes, or with a remote agent) you will need to adjust settings to accomodate this
 
-## Prepare Sample Application
+## Install the Smart Agent
 * Create an ubuntu vm
 
 ```
@@ -31,6 +31,8 @@ sudo sh /tmp/signalfx-agent.sh --realm us1 -- <ACCESS_TOKEN>
   * Note the number of Active and Configured Monitors (e.g. 10)
 * Verify host is visible in Splunk IM - Infrastructure / Hosts (Smart Agent/collectd). It may take a few minutes to appear.
 * Install the sample application
+
+## Prepare Sample Application
 
 ```
 cd ~
