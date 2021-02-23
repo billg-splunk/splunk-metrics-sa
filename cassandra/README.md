@@ -55,7 +55,7 @@ sudo vi /etc/signalfx/monitors/cassandra.yaml
 
 ```
 - type: collectd/cassandra
- host: localhost
+  host: localhost
   port: 7199
 ```
 
@@ -65,5 +65,5 @@ sudo vi /etc/signalfx/monitors/cassandra.yaml
   * ```signalfx-agent status monitors | grep cassandra```, to see the new monitor and the metrics being sent
   * ```signalfx-agent tap-dps -metric '*cassandra*'```, to observe the datapoints for metrics containing 'etcd'
   * Login to Splunk Infrastructure
-    * Navigate to **Metrics**, search for **etcd**
+    * Navigate to **Metrics**, search for **cassandra**
 

@@ -13,6 +13,7 @@ The general process is the following:
     * [Python plugins directly](https://docs.signalfx.com/en/latest/integrations/agent/monitors/collectd-python.html)
 
 ## Examples
+* [cassandra](./cassandra)
 * [etcd](./etcd)
 * [JMX](./jmx)
 * [Telegraf/exec](./telegraf_exec)
