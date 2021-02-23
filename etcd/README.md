@@ -73,7 +73,7 @@ sudo vi /etc/signalfx/monitors/etcd.yaml
 ## Verify Results
 * Several methods for verifying the result
   * ```signalfx-agent status```, and note the count of monitors increased
-  * ```signalfx-agent status monitors | grep exec```, to see the new monitor and the metrics being sent
+  * ```signalfx-agent status monitors | grep etcd```, to see the new monitor and the metrics being sent
   * ```signalfx-agent tap-dps -metric '*etcd*'```, to observe the datapoints for metrics containing 'etcd'
   * Login to Splunk Infrastructure
     * Navigate to **Metrics**, search for **etcd**
