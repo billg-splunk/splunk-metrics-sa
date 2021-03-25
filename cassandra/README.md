@@ -20,7 +20,7 @@ sudo sh /tmp/signalfx-agent.sh --realm us1 -- <ACCESS_TOKEN>
   * Note the number of Active and Configured Monitors (e.g. 10)
 * Verify host is visible in Splunk IM - Infrastructure / Hosts (Smart Agent/collectd). It may take a few minutes to appear.
 
-## Install etcd
+## Install Cassandra
 * Run the following to install etcd
   * You can go [here](https://cassandra.apache.org/download/) for a later release
   * Check there if you encounter issues as well
