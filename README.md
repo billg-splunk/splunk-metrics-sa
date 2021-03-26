@@ -15,6 +15,7 @@ The general process is the following:
 ## Examples
 * [cassandra](./cassandra)
 * [etcd](./etcd)
+* [jenkins](./jenkins)
 * [JMX](./jmx)
 * [Telegraf/exec](./telegraf_exec)
 
